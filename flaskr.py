@@ -38,7 +38,7 @@ def initdb_command():
 @app.teardown_appcontext
 def close_db(error):
     if hasattr(g, 'sqlite_db'):
-        g.sqlite_db.c;ose()
+        g.sqlite_db.close()
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
