@@ -1,4 +1,5 @@
 ### https://raw.github.com/github/gitignore/4cefae5d09b590eada9ec28d67034292cc939fbb/Python.gitignore
+.diveinto
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
